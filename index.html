@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>키즈엘레브 | 옷장 & 인스타 랜딩</title>
+  <style>
+    body {
+      margin:0;
+      font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;
+      background:#fffafc;
+      color:#444;
+    }
+    header {
+      background:linear-gradient(135deg,#ffd6e8,#fff0f6);
+      padding:30px 20px;
+      text-align:center;
+    }
+    header h1 { margin:0; font-size:30px; letter-spacing:-1px; }
+    header p { margin-top:6px; color:#777; }
+
+    nav {
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      background:#ffffff;
+      padding:12px 0;
+      border-bottom:1px solid #f0e6eb;
+    }
+    nav a {
+      text-decoration:none;
+      color:#555;
+      font-weight:600;
+      font-size:15px;
+    }
+
+    section { padding:60px 20px; }
+
+    .hero {
+      text-align:center;
+      background:#fff;
+    }
+    .hero h2 { font-size:34px; margin-bottom:10px; }
+    .hero p { font-size:16px; color:#777; }
+
+    .btn {
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 28px;
+      background:#ff8fb1;
+      color:#fff;
+      border-radius:30px;
+      text-decoration:none;
+      font-size:15px;
+      box-shadow:0 4px 10px rgba(255,143,177,0.25);
+    }
+
+    /* 공구 안내 */
+    .groupbuy {
+      background:#fff7fb;
+      text-align:center;
+    }
+    .groupbuy h3 { font-size:26px; margin-bottom:20px; }
+    .steps {
+      max-width:800px;
+      margin:0 auto;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:20px;
+    }
+    .step {
+      background:#fff;
+      border-radius:18px;
+      padding:25px 20px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.04);
+    }
+    .step span {
+      display:block;
+      font-size:13px;
+      color:#ff8fb1;
+      margin-bottom:6px;
+      font-weight:700;
+    }
+
+    /* 상품 */
+    .products { max-width:1100px; margin:0 auto; }
+    .products h3 { text-align:center; font-size:26px; margin-bottom:30px; }
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:24px;
+    }
+    .card {
+      background:#fff;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 6px 16px rgba(0,0,0,0.06);
+    }
+    .card img { width:100%; height:260px; object-fit:cover; }
+    .info { padding:16px; }
+    .info h4 { margin:0 0 6px; font-size:16px; }
+    .price { color:#ff6f9f; font-weight:700; }
+
+    /* 인스타 랜딩 */
+    .insta {
+      background:linear-gradient(180deg,#fff,#fff5f9);
+      text-align:center;
+    }
+    .insta h3 { font-size:28px; margin-bottom:10px; }
+    .insta p { color:#777; font-size:15px; }
+    .insta .btn { background:#111; box-shadow:none; }
+
+    footer {
+      background:#fff;
+      padding:30px 20px;
+      text-align:center;
+      font-size:14px;
+      color:#888;
+      border-top:1px solid #f0e6eb;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>키즈엘레브</h1>
+  <p>감성 · 러블리 아동복 옷장</p>
+</header>
+
+<nav>
+  <a href="#groupbuy">구매안내</a>
+  <a href="#products">진행중 상품</a>
+  <a href="#insta">INSTAGRAM</a>
+</nav>
+
+<section class="hero">
+  <h2>아이의 하루에
+    <br/>작은 설렘을 더해요 🎀</h2>
+  <p>엄마가 먼저 고른, 믿고 입히는 감성 아동복</p>
+  <a href="https://pf.kakao.com/_YOURCHANNEL/chat" class="btn">카카오톡 구매 문의</a>
+</section>
+
+<section id="groupbuy" class="groupbuy">
+  <h3>구매 안내</h3>
+  <div class="steps">
+    <div class="step">
+      <span>STEP 01</span>
+      인스타그램 & 홈페이지 상품 확인
+    </div>
+    <div class="step">
+      <span>STEP 02</span>
+      상품 옵션 선택 후 구매 문의
+    </div>
+    <div class="step">
+      <span>STEP 03</span>
+      안내에 따라 결제 진행
+    </div>
+    <div class="step">
+      <span>STEP 04</span>
+      제작/입고 후 순차 발송 🤍
+    </div>
+  <p style="margin-top:30px;font-size:14px;color:#888;text-align:center;">※ 주문 후 단순 변심에 의한 교환·환불은 어려울 수 있으니 신중한 구매 부탁드립니다.</p>
+</div>
+</section>
+
+<section id="products" class="products">
+  <h3>현재 옷장 아이템</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x400" />
+      <div class="info">
+        <h4>프리미엄 상하복 세트</h4>
+        <div class="price">₩29,000</div>
+        <div style="font-size:13px;color:#999;margin-top:4px;">바로 배송 · 수량 소진 시 마감</div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x400" />
+      <div class="info">
+        <h4>데일리 맨투맨 세트</h4>
+        <div class="price">₩24,000</div>
+        <div style="font-size:13px;color:#999;margin-top:4px;">바로 배송 · 수량 소진 시 마감</div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x400" />
+      <div class="info">
+        <h4>봄 신상 원피스</h4>
+        <div class="price">₩32,000</div>
+        <div style="font-size:13px;color:#999;margin-top:4px;">신상 입고 · 수량 소진 시 마감</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="insta" class="insta">
+  <h3>키즈엘레브 인스타그램</h3>
+  <p>신상 · 착용컷 · 코디는 인스타에서 가장 먼저 만나보세요</p>
+  <a href="https://www.instagram.com/kidseleve/" class="btn" target="_blank">@kidseleve 바로가기</a>
+</section>
+
+<footer>
+  <p>상호명: 키즈엘레브 | 대표: 강정</p>
+  <p>문의: <a href="https://pf.kakao.com/kidseleve/chat" style="color:#ff8fb1;text-decoration:none;font-weight:600;">카카오톡 채널 바로 문의</a></p>
+  <p>© 2026 KIDSELEVE</p>
+</footer>
+
+</body>
+</html>
